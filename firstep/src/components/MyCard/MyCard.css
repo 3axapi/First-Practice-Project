@@ -1,0 +1,50 @@
+.carda {
+    display: inline-block;
+    border: 1px solid #39de00;
+    padding: 10.5px 15.4px;
+    color: black;
+    background: #39de00;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.cardp {
+    font-size: 16.2px;
+    margin: 0 0 20px 0;
+}
+
+.cardh3 {
+    font-size: 1.563em;
+    margin: 0 0 10px 0;
+    font-weight: 500;
+}
+
+.cardimg {
+    width: 150PX;
+}
+
+.card {
+    padding: 48px;
+    margin: auto;
+}
+
+.card::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.info {
+    float: left
+}
+
+.mask {
+    display: inline;
+}
+
+@media (min-width: 1100px) {
+    .card {
+        width: 1100px;
+    }
+}

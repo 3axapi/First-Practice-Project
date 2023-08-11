@@ -1,0 +1,44 @@
+.ssh2 {
+    font-family: Cousine;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    font-size: 1.953em;
+    margin: 0 0 10px 0;
+    text-align: center;
+    font-weight: 500;
+}
+
+.preinfo {
+    padding: 0 15px 10px;
+    text-align: justify;
+    color: white;
+}
+
+h4 {    
+    white-space: pre-wrap;
+    font-size: 1.25em;
+    word-wrap: break-word;
+    line-height: 1.5;
+    margin: 10px 0;
+    font-weight: 500;
+}
+
+.wv {
+    text-align: center;
+    height: 50px;
+}
+
+.services {
+    background-color: #262730;
+}
+
+.mrgsrvc {
+    padding: 82px 0;
+    margin: auto;
+}
+
+@media (min-width: 1140px) {
+    .mrgsrvc {
+        width: 1140px;
+    }
+}

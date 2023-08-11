@@ -1,0 +1,59 @@
+.abth2 {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 0 10px 0;
+    margin-top: 0;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.1);
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    font-family: Cousine;
+    font-weight: 500;
+}
+
+.wv {
+    text-align: center;
+    height: 50px;
+    padding-bottom: 10px;
+    line-height: 1.42857143;
+}
+
+.about {
+    font-size: 1.278rem;
+    padding: 82px 0;
+    font-family: MRoboto;
+    line-height: 1.5;
+    background: #f7f9f9;
+}
+
+.about::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.abtimg {
+    float: right;
+    border-radius: 10px;
+    max-width: 500px;
+    max-height: 430px;
+    margin: 0 0 30px 30px;
+}
+
+.imgcontainer {
+    text-align: center;
+    display: inline-block;
+}
+
+@media (min-width: 1140px) {
+    .about-info {
+        width: 1140px;
+        margin: auto;
+    }
+}
+
+@media (min-width: 500px) {
+    .imgcontainer {
+        width: 500px;
+        height: 430px;
+    }
+}

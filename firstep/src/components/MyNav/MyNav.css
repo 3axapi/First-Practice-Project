@@ -1,0 +1,43 @@
+nav {
+    background: black;
+    box-shadow: rgb(0 0 0 / 35%) 0px 2px 12px 2px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    margin-top: -0.0125px;
+}
+
+.navdiv ul li {
+display: inline;
+padding: 8px 15px;
+font-family: Cousine;
+margin-right: 10px;
+letter-spacing: 1px;
+}
+
+.navlink:hover {
+color: #39de00;
+}
+
+.navdiv {
+height: 70px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.navdiv ul {
+font-size: 16.5px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0;
+padding: 0;
+}
+
+.navlink {
+color: white;
+text-transform: uppercase;
+text-decoration: none;
+}

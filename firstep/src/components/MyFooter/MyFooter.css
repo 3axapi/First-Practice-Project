@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+.footer_1 {
+    color: #ffffff;
+    padding: 40px 0;
+    background-color: #12121a;
+    font-size: 0.8rem;
+}
+
+.ftcontainer {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.ftcontainer::before, .ftcontainer::after {
+    display: table;
+    content: " ";
+}
+
+.ftcontainer::after {
+    clear: both;
+}
+
+.col125 {
+    width: 50%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-family: MRoboto;
+    letter-spacing: .25px;
+}
+
+.navbar-nav {
+    float: none;
+    display: inline-block;
+    text-align: right;
+    margin: 0 0 15px;
+}
+
+.nav::before, .nav::after {
+    display: table;
+    content: " ";
+}
+
+.nav {
+    padding: 0;
+}
+
+.nav::after {
+    clear: both;
+}
+
+.nav li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.nav li a {
+    margin: 0px 8px;
+    color: white;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+
+.nav li a span {
+    font-size: 0.8rem;
+    font-family: MRoboto;
+    letter-spacing: .25px;
+}
+
+.nav > li > a:hover {
+    color: #39de00
+}
+
+.ac a {
+    color: #39de00;
+    text-decoration: none;
+}
+
+.ac a:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 1200px) {
+    .ftcontainer {
+        width: 1170px;
+    }
+}

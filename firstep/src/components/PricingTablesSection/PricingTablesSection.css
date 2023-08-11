@@ -1,0 +1,147 @@
+.pricingtables {
+    padding: 82px 0;
+    background: #262730;
+}
+
+.colxs {
+    margin: auto;
+    padding: 0 15px 10px;
+    color: white;
+}
+
+.pricecontainer {
+    text-align: center;
+    padding: 0 15px;
+    margin: auto;
+}
+
+.colsm {
+    margin-left: 8.33333333%;
+    margin-right: 8.33333333%;
+    padding: 0 15px;
+    margin-top: 81px;
+}
+
+.name {
+    padding: 50px 0 10px 0;
+    background-color: white;
+    border-radius: 16px 16px 0 0;
+    border-bottom: 1px solid #E9E9E9;
+    text-align: center;
+}
+
+.name span {
+    font-family: MRoboto;
+    text-align: center;
+    background-color: rgb(57, 222, 0);
+    border-radius: 50%;
+    font-size: 54px;
+    height: 160px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: -1px auto;
+    margin-top: -120px;
+    margin-bottom: 16px;
+}
+
+.name h3 {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.features {
+    padding: 32px;
+    background-color: white;
+    border-bottom: 1px solid #E9E9E9;
+}
+
+.features ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 16px;
+}
+
+.pricebutton {
+    background-color: white;
+    display: flex;
+    padding: 32px;
+    border-radius: 0 0 16px 16px;
+    box-sizing: border-box;
+}
+
+.pabutton {
+    padding: 0.75rem 1.1rem;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    font-size: 1.4rem !important;
+    border: 1px solid #39de00;
+    color: black;
+    transition: background-color .35s, opacity .35s;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.5;
+    display: block;
+    width: 100%;
+    margin-bottom: 0;
+    cursor: pointer;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    background: #39de00
+}
+
+.pabutton:hover {
+    opacity: 0.9;
+    background-color: #39de00;
+}
+
+.headerwrap h2 {
+    font-family: Cousine;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.1);
+    letter-spacing: 0.5px;
+    margin-top: 0;
+    font-size: 1.953em;
+    font-weight: 500;
+    text-align: center;
+}
+
+.wv {
+    padding: 0;
+}
+
+div.sloganwrap {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    line-height: 1.5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.sloganwrap h4 {
+    margin: 0;
+    font-size: 1.285em;
+    text-align: justify;
+    font-family: MRoboto;
+    word-wrap: normal;
+}
+
+@media (min-width: 1140px) {
+    .colxs {
+        width: 1140px;
+    }
+}
+
+@media (min-width: 1170px) {
+    .pricecontainer {
+        width: 1170px;
+    }
+}

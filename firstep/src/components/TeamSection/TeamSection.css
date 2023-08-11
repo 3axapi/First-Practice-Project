@@ -1,0 +1,86 @@
+.tsh2 {
+    font-size: 1.953em;
+    line-height: 1.5;
+    margin: 0 0 10px 0;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.1);
+    letter-spacing: 0.5px;
+    font-family: Cousine;
+    font-weight: 500;
+    text-align: center;
+}
+
+.thp {
+    text-shadow: 1px 1px rgba(0,0,0,0.004);
+    opacity: 0.7;
+    margin: 0 0 16px 0;
+    line-height: 1.5;
+    font-size: 16.5px;
+}
+
+.thspan {
+    position: relative;
+    margin-bottom: 8px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    font-size: 16.5px;
+}
+
+.teamsection {
+    width: 1140px;
+    padding: 82px 15px;
+    margin: auto;
+    background-color: #f7f9f9;
+    text-align: center;
+    font-family: Roboto;
+}
+
+.faces {
+    display: flex;
+    justify-content: center;
+}
+
+.facecontent {
+    width: 324px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0 15px;
+    margin: 0 0 30px 0;
+}
+
+.faceshadow {
+    box-shadow: 0 .3125rem .875rem 0 rgba(129,129,129,.2);
+    padding: 56px 32px;
+    background-color: white;
+}
+
+.face {
+    margin:  auto auto 25px;
+    width: 130px;
+    height: 130px;
+    background-size: cover;
+    position: relative;
+    border-radius: 50%;
+}
+
+.face1 {
+    background-image: url("https://static1.s123-cdn-static-a.com/uploads/5979588/400_64b8fb7b4f40a.png");
+}
+
+.face2 {
+    background-image: url("https://static1.s123-cdn-static-a.com/uploads/5979588/400_64b8fc2d8353a.png");
+}
+
+.face3 {
+    background-image: url("https://static1.s123-cdn-static-a.com/uploads/5979588/400_64b8fbf1f2edd.png");
+}
+
+.pretmsctn {
+    box-sizing: border-box;
+}
+
+@media (min-width: 1140px) {
+    .mrgtmsctn {
+        width: 1140px;
+    }
+}
