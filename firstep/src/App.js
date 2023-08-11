@@ -15,17 +15,10 @@ import SubjectsSection from "./components/SubjectsSection/SubjectsSection"
 import ContactSection from "./components/ContactSection/ContactSection";
 import MyFooter from "./components/MyFooter/MyFooter"
 
-import Bar from "./rozgrzewki/rozgrzewka 1/Bar";
-import AnimatedBar from "./rozgrzewki/rozgrzewka 1/AnimatedBar";
-import Indextation from "./rozgrzewki/rozgrzewka 2/Indextation"
-
-
-
 function App() {
 
   return (
     <>
-    
       <MyHeader />
       <MyNav />
       <TopSection />
@@ -36,12 +29,6 @@ function App() {
       <SubjectsSection />
       <ContactSection />
       <MyFooter />
-      
-      {/* <Bar width="25%" />
-      <Bar width="50%" />
-      <AnimatedBar /> */}
-
-      {/* <Indextation /> */}
     </>
   );
 }
